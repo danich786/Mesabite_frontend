@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "components/common/Navbar2.tsx",
+    ".next/types/app/create_folder/page.ts",
+    "app/(auth)/(owner)/menus/page.jsx",
+    "components/utils/CustomButtons.jsx",
+    "components/buttons/DeleteMenuCategoryButton.jsx",
+    "components/buttons/SettingsMenuCategoryButton.jsx",
+    "components/utils/EditMenuCategoryButton.jsx",
+    "app/(auth)/(owner)/menus/create_category_folder/page.jsx",
+    "app/(auth)/(owner)/menus/add_menu_category/page.jsx",
+    "components/utils/store.js",
+    "components/buttons/index.js",
+    "app/(auth)/register/page.jsx",
+    "app/(auth)/(owner)/menus/layout.tsx",
+    "app/layout.jsx",
+    "app/(auth)/layout.jsx"
+  ],
+  "exclude": ["node_modules"]
+}
